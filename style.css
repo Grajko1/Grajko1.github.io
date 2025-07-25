@@ -1,11 +1,11 @@
 body
 {
   text-align: center;
-  background-image: url('images/background Tarik.png');
+  background-image: url('images/background_Tarik-removebg-preview.png');
+  background-color: #67362D;
   background-repeat: no-repeat;
   background-position: left 75px top 1px;
   background-size: 2250px 950px;
-  background-color: #000000;
 }
 
 @font-face {
@@ -17,34 +17,41 @@ body
   src: url(Fonts/AbrilFatface-Regular.ttf);
 }
 
-img{
-  padding: 15px;
-  float: left;
-  width: 500px;
-  height: 450px;
-}
 p
 {
   font-family: TextFont;
   text-align: start;
   font-size: 25px;
   color: rgb(255, 255, 255);
+  padding-right: 800px;
+  padding-left: 50px;
 }
+
 a{
   font-family: HeadFont;
     color: black;
     text-decoration: none;
 }
+
 .topnav {
-    overflow: hidden;
-    background-color:   rgba(51, 51, 51, 0.5);
-    position: relative;
-  }
+
+  position: fixed;
+  background-color: rgba(251, 222, 199);
+  top: 30;
+  left: 60;
+  width: 35%;
+  z-index: 1001;
+}
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
+.topnav #myLinks {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(251, 222, 199, 0.5);
+  z-index: 1000;
+}
   
   /* Style navigation menu links */
   .topnav a {
@@ -57,23 +64,25 @@ a{
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: rgb(177, 177, 177);
     display: block;
     position: absolute;
-    right: 0;
+    left: 15;
     top: 0;
+  }
+  
+  .topnav a.icon:hover{
+    padding-bottom: 28px;
+    background-color: rgb(241, 214, 191);
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    padding: 20px 27px;
-    background-color: rgb(177, 177, 177);
     color: black;
+    background-color: rgba(251, 222, 199, 0.7);
   }
   
   /* Style the active link (or home/logo) */
   .active {
     font-size: 25px;
-    background-color: rgb(177, 177, 177);
     color: black;
   }
