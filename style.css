@@ -53,7 +53,6 @@ a{
   z-index: 1000;
 }
   
-  /* Style navigation menu links */
   .topnav a {
     color: black;
     padding: 20px 27px;
@@ -69,7 +68,7 @@ a{
     left: 15;
     top: 0;
   }
-  
+
   .topnav a.icon:hover{
     padding-bottom: 28px;
     background-color: rgb(241, 214, 191);
