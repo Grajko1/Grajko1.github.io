@@ -2,7 +2,7 @@ body
 {
     font-size: 25px;
     text-align: center;
-    background-color: #67362D;
+    background-image: linear-gradient(to right bottom , #67362D, #805448);
 }
 
 img{
@@ -31,8 +31,13 @@ h3{
 }
 a{
     font-family: HeadFont;
-    color: white;
+    color: #FBDEC7;
 }
+
+a:hover{
+  color: #AA7051;
+}
+
 #largeText {
     display: none; /* Initially hidden */
     font-size: 36px; /* Large text */
@@ -94,16 +99,16 @@ button:hover{
     left: 15;
     top: 0;
   }
-  
+
   .topnav a.icon:hover{
     padding-bottom: 28px;
-    background-color: rgb(241, 214, 191);
+    background-color: rgb(201, 175, 152);
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     color: black;
-    background-color: rgba(251, 222, 199, 0.7);
+    background-color: rgb(201, 175, 152);
   }
   
   /* Style the active link (or home/logo) */

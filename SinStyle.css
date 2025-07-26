@@ -1,9 +1,10 @@
 img{
     width: 350px;
     height: 250px;
+    box-shadow: 15px 15px 20px #1F0D0A;
 }
 body{
-    background-color: #67362D;
+    background-image: linear-gradient(to right bottom , #67362D, #805448);
     text-align: center;
 }
 @font-face {
@@ -18,6 +19,7 @@ body{
 h2{
   font-family: TextFont;
   color: white;
+  text-shadow: #1F0D0A 2px 2px 4px;
 }
 a{
   font-family: HeadFont;
@@ -39,11 +41,12 @@ a{
 
 
 .topnav {
+
   position: relative;
   background-color: rgba(251, 222, 199);
   top: 30;
   left: 60;
-  width: 93%;
+  width: 95%;
   z-index: 1001;
 }
   
@@ -72,17 +75,17 @@ a{
     position: absolute;
     left: 15;
     top: 0;
-    background-color: transparent !important;
   }
-  
-.topnav a.icon:hover {
-  background-color: rgb(241, 214, 191);
-}
+
+  .topnav a.icon:hover{
+    padding-bottom: 28px;
+    background-color: rgb(201, 175, 152);
+  }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     color: black;
-    background-color: rgb(241, 214, 191);
+    background-color: rgb(201, 175, 152);
   }
   
   /* Style the active link (or home/logo) */
@@ -90,4 +93,3 @@ a{
     font-size: 25px;
     color: black;
   }
-  

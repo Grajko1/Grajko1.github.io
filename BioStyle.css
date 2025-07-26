@@ -1,7 +1,7 @@
 body
 {
     text-align: center;
-    background-color: #67362D;
+    background-image: linear-gradient(to right bottom , #67362D, #805448);
 }
 @font-face {
   font-family: TextFont;
@@ -17,6 +17,13 @@ html
 	padding: 0 1em;
 }
 
+.container
+{
+  padding-left: 100px;
+  padding-right: 75px;
+}
+
+
 .cd__main{
     max-width: 720px !important;
 }
@@ -26,6 +33,7 @@ img
   padding: 15px;
   height: 250px;
   width: 250px;
+  box-shadow: 10px 10px 15px 10px  #1F0D0A;
 }
 
 .image-left, .image-right
@@ -75,7 +83,11 @@ img
 h2{
   font-size: 27px;
   font-family: TextFont; 
-  color: rgb(255, 255, 255);
+  color: #1F0D0A;
+  background-color: rgba(251, 222, 199);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: #1F0D0A 5px 5px 10px;
 }
 
 p{
@@ -85,7 +97,9 @@ p{
 }
 a{
   font-family: HeadFont;
-}.topnav {
+}
+
+.topnav {
 
   position: relative;
   background-color: rgba(251, 222, 199);
@@ -121,16 +135,16 @@ a{
     left: 15;
     top: 0;
   }
-  
+
   .topnav a.icon:hover{
     padding-bottom: 28px;
-    background-color: rgb(241, 214, 191);
+    background-color: rgb(201, 175, 152);
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     color: black;
-    background-color: rgba(251, 222, 199, 0.7);
+    background-color: rgb(201, 175, 152);
   }
   
   /* Style the active link (or home/logo) */
