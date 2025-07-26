@@ -23,6 +23,10 @@ html
   padding-right: 75px;
 }
 
+.bold{
+ color:rgb(0, 0, 0); 
+ font-weight: bold;
+}
 
 .cd__main{
     max-width: 720px !important;
